@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    background-image: url('Starry.png');
+    background-size: 100%;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    height: 100vh;
+}
+h1{
+    color: gold;
+    font-size: 110px;
+    border-color: white;
+}
+button{
+    height: 5%;
+    width: 20%;
+    background-color: goldenrod;
+    border-color: silver;
+    border-radius: 42%;
+    color: aliceblue;
+    justify-self: center;
+}
+#star{
+    width: 20%;
+    height: 20%;
+    margin: 30px 1px 1px 99px;
+    display: flex;
+}

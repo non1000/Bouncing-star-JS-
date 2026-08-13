@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="star.css">
+</head>
+<body>
+    <script>
+        let star_width = 98
+        let star_height = 102
+        function movingStar(){
+            let top = parseInt(document.getElementById('star').style.marginTop) || 0;
+            let left = parseInt(document.getElementById('star').style.marginLeft) || 0;
+            let right = parseInt(document.getElementById('star').style.marginRight) || 0;
+            let bottom = parseInt(document.getElementById('star').style.marginBottom) || 0;
+
+            while ((document.getElementById('star').style.marginTop) >= '1000px' ) {
+                document.getElementById('star').style.marginTop = (top + 10) + 'px';
+                document.getElementById('star').style.marginLeft = (left + 10) + 'px';
+            }
+            
+        }
+    </script>
+    <h1>Push button to move star</h1>
+    <button type="button" onclick="movingStar()">Star moving!!!!!</button>
+    <div id="star">
+        <img src="Biggest star.png" alt="Star*">
+    </div>
+</body>
+</html>
