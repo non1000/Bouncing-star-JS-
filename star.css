@@ -17,15 +17,7 @@ h1{
     font-size: 110px;
     border-color: white;
 }
-button{
-    height: 5%;
-    width: 20%;
-    background-color: goldenrod;
-    border-color: silver;
-    border-radius: 42%;
-    color: aliceblue;
-    justify-self: center;
-}
+
 #star{
     width: 20%;
     height: 20%;
