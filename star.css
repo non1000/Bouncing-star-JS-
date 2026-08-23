@@ -6,7 +6,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: black;
     background-image: url('Starry.png');
-    background-size: 100%;
+    background-size: cover;
     color: white;
     font-size: larger;
     text-align: center;
