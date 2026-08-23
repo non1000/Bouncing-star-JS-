@@ -13,12 +13,12 @@
 
       function movingStar() {
         let star = document.getElementById("star").style;
-        let top = parseInt(star.marginTop) || 30;
-        let left = parseInt(star.marginLeft) || 99;
+        let top = parseInt(star.marginTop) || 10;
+        let left = parseInt(star.marginLeft) || 59;
 
-        if (top >= 350) {
+        if (top >= 370) {
           reverseGravity = true;
-        } else if (top <= 30) {
+        } else if (top <= 10) {
           reverseGravity = false;
         }
 
@@ -28,9 +28,9 @@
           star.marginTop = top + 10 + "px";
         }
 
-        if (left >= 1120) {
+        if (left >= 1150) {
           reverseMomentum = true;
-        } else if (left <= 99) {
+        } else if (left <= 59) {
           reverseMomentum = false;
         }
 
@@ -44,7 +44,7 @@
     </script>
     <h1>Star moving!!!!!!</h1>
     <div id="star">
-      <img src="Biggest star.png" alt="Star*" />
+      <img src="star.png" alt="Star*" />
     </div>
   </body>
 </html>
