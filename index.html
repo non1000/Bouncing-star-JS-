@@ -16,7 +16,7 @@
         let top = parseInt(star.marginTop) || 10;
         let left = parseInt(star.marginLeft) || 59;
 
-        if (top >= 370) {
+        if (top >= (window.innerHeight - 240)) {
           reverseGravity = true;
         } else if (top <= 10) {
           reverseGravity = false;
@@ -28,7 +28,7 @@
           star.marginTop = top + 10 + "px";
         }
 
-        if (left >= 1150) {
+        if (left >= (window.innerWidth - 150)) {
           reverseMomentum = true;
         } else if (left <= 59) {
           reverseMomentum = false;

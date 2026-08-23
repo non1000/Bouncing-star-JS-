@@ -11,16 +11,24 @@ body{
     font-size: larger;
     text-align: center;
     height: 100vh;
+    font-style: italic;
 }
 h1{
     color: gold;
-    font-size: 110px;
+    font-size: 500%;
     border-color: white;
 }
-
 #star{
     width: 20%;
     height: 20%;
     margin: 30px 1px 1px 99px;
     display: flex;
+}
+@media (max-width: 700px){
+    body{
+        background-image: url(Starry-phone.png);
+    }
+    h1{
+        font-size: 200%;
+    }
 }
